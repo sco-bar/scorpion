@@ -1,0 +1,32 @@
+#blockBox{
+    background: url(1.jpg);
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+    border: blue 2px solid;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+}
+.block_child{
+    background-color: rgb(152, 145, 179);
+    border: rgb(127, 207, 134) 2px solid;
+    height: 100px;
+    width: 25%;
+    display: inline-block;
+    margin: 0 20px;
+}
+#flexBox{
+    background-color: rgb(143, 163, 27);
+    border: rgb(175, 175, 238) 2px solid;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flex_child{
+    background-color: rgb(67, 32, 207);
+    border: rgb(179, 148, 174) 2px solid;
+    height: 100px;
+    width: 25%;
+}
