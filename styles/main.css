@@ -9,6 +9,8 @@
 
 header, section, footer{
     padding: 20px 40px;
+    margin: 20px auto;
+    width: 98%;
 }
 
 h1 {
@@ -104,8 +106,8 @@ header > ul li:hover {
 }
 .articles {
     color:rgba(8, 8, 8, 0.973);
+    background-color: rgb(208, 186, 229);
     font-size: 30px;
-    height: 10em;
-    width: 40em;
+    height: 300px;
     margin-left: 40px;
 }
